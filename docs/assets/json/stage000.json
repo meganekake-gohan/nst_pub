@@ -1,0 +1,32 @@
+{
+	"data_version": "1.0.0",
+	"x": 8,
+	"y": 6,
+	"start_x": 2,
+	"goal_x": 2,
+	"start_direction": {
+		"interval": 3000,
+		"easing": "Cubic.easeInOut",
+		"goal_delay": 800
+	},
+	"goal_data": { 
+		"type": 2,
+		"target_id": 1
+	},
+	"hurdle_list": [
+	],
+	"switch_list": [
+		{"x": 1, "y": 3, "target_id": 1}
+	],
+	"partition_list": [
+	],
+	"enemy_list": [
+		{"x": 0, "y": 5, "img": 1, "angle": -90, "enemy_pattern": "pattern_1"}
+	],
+	"enemy_pattern" : {
+		"pattern_1" : {"move_type": 1, "search": 4, "bullet_pattern": "bullet_pattern_1"}
+	},
+	"bullet_pattern": {
+		"bullet_pattern_1" : {"move_type": 1, "speed": 250, "interval": 500}
+	}
+}

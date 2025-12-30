@@ -1,0 +1,55 @@
+{
+	"data_version": "1.0.0",
+	"x": 10,
+	"y": 15,
+	"start_x": 3,
+	"goal_x": 2,
+	"goal_type": 1,
+	"start_direction": {
+		"interval": 3000,
+		"easing": "Cubic.easeInOut",
+		"goal_delay": 800
+	},
+	"goal_data": { 
+		"type": 2,
+		"target_id": 1 
+	},
+	"hurdle_list": [
+		{"x": 0, "y": 6},
+		{"x": 1, "y": 6}
+	],
+	"switch_list": [
+		{"x": 1, "y": 1, "target_id": 1}
+	],
+	"enemy_list": [
+		{"x": 4, "y": 3, "img": 3, "invincible":{"all": true}, "enemy_pattern": "stop"},
+		{"x": 5, "y": 3, "img": 3, "invincible":{"all": true}, "enemy_pattern": "stop"},
+		{"x": 6, "y": 3, "img": 3, "invincible":{"all": true}, "enemy_pattern": "stop"},
+		{"x": 7, "y": 3, "img": 3, "invincible":{"all": true}, "enemy_pattern": "stop"},
+		{"x": 4, "y": 4, "img": 3, "invincible":{"all": true}, "enemy_pattern": "stop"},
+		{"x": 4, "y": 5, "img": 3, "invincible":{"all": true}, "enemy_pattern": "stop"},
+		{"x": 4, "y": 6, "img": 3, "invincible":{"all": true}, "enemy_pattern": "stop"},
+		{"x": 4, "y": 7, "img": 3, "invincible":{"all": true}, "enemy_pattern": "stop"},
+		{"x": 4, "y": 8, "img": 3, "invincible":{"all": true}, "enemy_pattern": "stop"},
+		{"x": 4, "y": 9, "img": 3, "invincible":{"all": true}, "enemy_pattern": "stop"},
+		{"x": 5, "y": 9, "img": 3, "invincible":{"all": true}, "enemy_pattern": "stop"},
+		{"x": 6, "y": 9, "img": 3, "invincible":{"all": true}, "enemy_pattern": "stop"},
+		{"x": 7, "y": 9, "img": 3, "invincible":{"all": true}, "enemy_pattern": "stop"},
+		{"x": 7, "y": 6, "img": 3, "invincible":{"all": true}, "enemy_pattern": "stop"},
+		{"x": 8, "y": 6, "img": 3, "invincible":{"all": true}, "enemy_pattern": "stop"},
+		{"x": 9, "y": 6, "img": 3, "invincible":{"all": true}, "enemy_pattern": "stop"},
+		{"x": 3, "y": 4, "img": 1, "angle": 90, "enemy_pattern": "rot"},
+		{"x": 0, "y": 9, "img": 1, "angle": 90, "enemy_pattern": "rot"},
+		{"x": 9, "y": 0, "img": 1, "angle": 90, "enemy_pattern": "rot"},
+		{"x": 2, "y": 12, "img": 1, "angle": 90, "enemy_pattern": "move"},
+		{"x": 5, "y": 12, "img": 1, "angle": 90, "enemy_pattern": "move"}
+	],
+	"enemy_pattern" : {
+		"stop" : {},
+		"rot"  : {"move_type": 1, "search": 4, "bullet_pattern": "bullet_pattern_1"},
+		"move" : {"move_type": 2, "search": 5, "speed": 200, "bullet_pattern": "bullet_pattern_1"}
+	},
+	"bullet_pattern": {
+		"bullet_pattern_1" : {"move_type": 1, "speed": 250, "interval": 1000}
+	}
+}

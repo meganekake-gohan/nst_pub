@@ -1,0 +1,39 @@
+{
+	"data_version": "1.0.0",
+	"x": 10,
+	"y": 9,
+	"start_x": 2,
+	"goal_x": 2,
+	"start_direction": {
+		"interval": 3000,
+		"easing": "Cubic.easeInOut",
+		"goal_delay": 800
+	},
+	"goal_data": { 
+		"type": 2,
+		"target_id": 3
+	},
+	"hurdle_list": [
+	],
+	"switch_list": [
+		{"x": 1, "y": 6, "target_id": 1}
+	],
+	"partition_list": [
+		{"x": 0, "y": 4, "w": 7, "target_id": 2, "move": {"dir": "left", "len": 7}},
+		{"x": 6, "y": 0, "h": 5, "target_id": 2, "move": {"dir": "up", "len": 5}},
+		{"x": 6, "y": 5, "h": 4, "target_id": 1, "move": {"dir": "down", "len": 4}}
+	],
+	"enemy_list": [
+		{"x": 4, "y": 6, "img": 1, "angle": 180, "target_id": 2, "enemy_pattern": "pattern_1"},
+		{"x": 9, "y": 8, "img": 1, "angle": 180, "target_id": 2, "enemy_pattern": "pattern_1"},
+		{"x": 1, "y": 0, "img": 1, "angle": 180, "target_id": 3, "enemy_pattern": "pattern_2"},
+		{"x": 4, "y": 1, "img": 1, "angle": 180, "target_id": 3, "enemy_pattern": "pattern_2"}
+	],
+	"enemy_pattern" : {
+		"pattern_1" : {"move_type": 1, "search": 4, "bullet_pattern": "bullet_pattern_1"},
+		"pattern_2" : {"move_type": 2, "search": 4, "speed": 150, "bullet_pattern": "bullet_pattern_1"}
+	},
+	"bullet_pattern": {
+		"bullet_pattern_1" : {"move_type": 1, "speed": 250, "interval": 1000}
+	}
+}

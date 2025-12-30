@@ -1,0 +1,70 @@
+{
+	"data_version": "1.0.0",
+	"x": 22,
+	"y": 21,
+	"start_x": 3,
+	"goal_x": 12,
+	"start_direction": {
+		"interval": 5000,
+		"easing": "Cubic.easeInOut",
+		"goal_delay": 800
+	},
+	"goal_data": { 
+		"type": 2,
+		"target_id": 4
+	},
+	"hurdle_list": [
+		{"x": 2, "y": 0, "h": 5},
+		{"x": 2, "y": 4, "w": 6},
+		{"x": 4, "y": 4, "h": 5},
+		{"x": 0, "y": 8, "w": 2},
+		{"x": 4, "y": 8, "w": 7},
+		{"x": 10, "y": 8, "h": 4},
+		{"x": 2, "y": 11, "w": 3},
+		{"x": 7, "y": 11, "w": 4},
+		{"x": 2, "y": 11, "h": 7},
+		{"x": 5, "y": 14, "w": 7},
+		{"x": 5, "y": 14, "h": 4},
+		{"x": 11, "y": 14, "h": 5},
+		{"x": 5, "y": 17, "w": 4},
+		{"x": 8, "y": 17, "h": 4},
+		{"x": 10, "y": 4, "w": 6},
+		{"x": 16, "y": 0, "h": 8},
+		{"x": 13, "y": 8, "h": 4},
+		{"x": 13, "y": 11, "w": 7},
+		{"x": 19, "y": 7, "h": 7},
+		{"x": 19, "y": 3, "w": 3},
+		{"x": 19, "y": 7, "w": 3},
+		{"x": 14, "y": 16, "h": 5},
+		{"x": 14, "y": 16, "w": 4},
+		{"x": 10, "y": 0, "h": 2}
+	],
+	"switch_list": [
+		{"x": 0,  "y": 2,  "target_id": 1},
+		{"x": 19, "y": 19, "target_id": 2},
+		{"x": 19, "y": 0,  "target_id": 3},
+		{"x": 6,  "y": 0,  "target_id": 4}
+	],
+	"partition_list": [
+		{"x": 18, "y": 16, "w": 4, "target_id": 1, "move": {"dir": "right", "len": 4}},
+		{"x": 17, "y": 3, "w": 2, "target_id": 2, "move": {"dir": "right", "len": 2}},
+		{"x": 8, "y": 4, "w": 2, "target_id": 3, "move": {"dir": "right", "len": 2}}
+	],
+	"enemy_list": [
+		{"x": 0,  "y": 0,  "img": 1, "angle": 90,  "enemy_pattern": "rot_homing"},
+		{"x": 21, "y": 20, "img": 1, "angle": 180, "enemy_pattern": "rot_homing"},
+		{"x": 21, "y": 0,  "img": 1, "angle": 180, "enemy_pattern": "rot_homing"},
+		{"x": 4,  "y": 0,  "img": 1, "angle": 90,  "enemy_pattern": "rot"}
+	],
+	"enemy_pattern" : {
+		"stop": {},
+		"rot": {"move_type": 1, "search": 4, "bullet_pattern": "straight"},
+		"rot_homing": {"move_type": 1, "search": 3, "bullet_pattern": "homing"},
+		"move": {"move_type": 2, "search": 4, "speed": 200, "bullet_pattern": "straight"},
+		"move_homing": {"move_type": 2, "search": 4, "speed": 200, "bullet_pattern": "homing"}
+	},
+	"bullet_pattern": {
+		"straight" : {"move_type": 1, "speed": 250, "interval": 1000},
+		"homing" : {"move_type": 2, "speed": 250, "interval": 1000}
+	}
+}

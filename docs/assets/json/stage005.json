@@ -1,0 +1,36 @@
+{
+	"data_version": "1.0.0",
+	"x": 9,
+	"y": 9,
+	"start_x": 2,
+	"goal_x": 2,
+	"start_direction": {
+		"interval": 3000,
+		"easing": "Cubic.easeInOut",
+		"goal_delay": 800
+	},
+	"goal_data": { 
+		"type": 2,
+		"target_id": 1
+	},
+	"hurdle_list": [
+	],
+	"switch_list": [
+	],
+	"partition_list": [
+	],
+	"enemy_list": [
+		{"x": 4, "y": 2, "img": 2, "angle": 90, "hp":4, "invincible": {"self": true}, "target_id": 1, "enemy_pattern": "pattern_1"},
+		{"x": 1, "y": 7, "img": 3, "angle": 0, "invincible": {"bullet": true}, "enemy_pattern": "stop"},
+		{"x": 1, "y": 1, "img": 3, "angle": 0, "invincible": {"bullet": true}, "enemy_pattern": "stop"},
+		{"x": 7, "y": 1, "img": 3, "angle": 0, "invincible": {"bullet": true}, "enemy_pattern": "stop"},
+		{"x": 7, "y": 7, "img": 3, "angle": 0, "invincible": {"bullet": true}, "enemy_pattern": "stop"}
+	],
+	"enemy_pattern" : {
+		"stop": {},
+		"pattern_1" : {"move_type": 2, "search": 4, "speed": 180, "bullet_pattern": "bullet_pattern_1"}
+	},
+	"bullet_pattern": {
+		"bullet_pattern_1" : {"move_type": 1, "speed": 300, "interval": 500}
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"data_version": "1.0.0",
+	"x": 11,
+	"y": 11,
+	"start_x": 2,
+	"goal_x": 2,
+	"start_direction": {
+		"interval": 3000,
+		"easing": "Cubic.easeInOut",
+		"goal_delay": 800
+	},
+	"goal_data": { 
+		"type": 2,
+		"target_id": 2
+	},
+	"hurdle_list": [
+	],
+	"switch_list": [
+		{"x": 1, "y": 9, "target_id": 1},
+		{"x": 5, "y": 5, "target_id": 2}
+	],
+	"partition_list": [
+		{"x": 3, "y": 4, "h": 4, "target_id": 1, "move": {"dir": "down", "len": 3}},
+		{"x": 7, "y": 3, "h": 4, "target_id": 1, "move": {"dir": "up", "len": 3}},
+		{"x": 4, "y": 7, "w": 4, "target_id": 1, "move": {"dir": "right", "len": 3}},
+		{"x": 3, "y": 3, "w": 4, "target_id": 1, "move": {"dir": "left", "len": 3}}
+	],
+	"enemy_list": [
+		{"x": 9, "y": 1, "img": 1, "angle": -90, "invincible": {"all": true}, "enemy_pattern": "pattern_1"}
+	],
+	"enemy_pattern" : {
+		"pattern_1" : {"move_type": 1, "search": 3, "bullet_pattern": "bullet_pattern_1"}
+	},
+	"bullet_pattern": {
+		"bullet_pattern_1" : {"move_type": 2, "speed": 250, "interval": 500}
+	}
+}
