@@ -25,9 +25,10 @@
 	},
 	"goal_direction": 2000,
 	"player" : {
-		"hit_size": 60,
+		"hit_size": 40,
 		"speed": 400,
-		"rot_max": 4
+		"rot_max": 4,
+		"graze_circle_radius": 150
 	},
 	"enemy_texture" : {
 		"num": 3,
@@ -50,5 +51,8 @@
 	"search_effect": {
 		"delay": 300,
 		"interval": 2000
+	},
+	"graze": {
+		"interval": 500
 	}
 }
