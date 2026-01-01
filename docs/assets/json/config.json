@@ -52,7 +52,9 @@
 		"delay": 300,
 		"interval": 2000
 	},
-	"graze": {
-		"interval": 500
+	"boost": {
+		"graze_interval": 500,
+		"max_time": 10000,
+		"heal": 500
 	}
 }
