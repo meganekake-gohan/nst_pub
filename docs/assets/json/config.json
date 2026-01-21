@@ -1,6 +1,7 @@
 {
 	"version": "0.1.0",
 	"stage_json_list": [
+		"stage100.json",
 		"stage000.json",
 		"stage001.json",
 		"stage003.json",
