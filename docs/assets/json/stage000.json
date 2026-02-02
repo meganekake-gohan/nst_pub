@@ -1,5 +1,5 @@
 {
-	"data_version": "1.0.0",
+	"data_version": "1.1.0",
 	"x": 8,
 	"y": 6,
 	"start_x": 2,
@@ -21,12 +21,6 @@
 	"partition_list": [
 	],
 	"enemy_list": [
-		{"x": 0, "y": 5, "img": 1, "angle": -90, "enemy_pattern": "pattern_1"}
-	],
-	"enemy_pattern" : {
-		"pattern_1" : {"move_type": 1, "search": 4, "bullet_pattern": "bullet_pattern_1"}
-	},
-	"bullet_pattern": {
-		"bullet_pattern_1" : {"move_type": 1, "speed": 250, "interval": 500}
-	}
+		{"x": 0, "y": 5, "img": 1, "angle": -90, "enemy_pattern": "stop"}
+	]
 }

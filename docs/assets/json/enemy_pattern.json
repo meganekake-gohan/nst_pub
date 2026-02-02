@@ -1,0 +1,15 @@
+{
+	"enemy_pattern" : {
+		"none": {},
+		"stop" : {"move_type": 1, "search": 5, "bullet_pattern": "straight"},
+		"stop_homing" : {"move_type": 1, "search": 5, "bullet_pattern": "homing"},
+		"move": {"move_type": 2, "search": 4, "speed": 150, "bullet_pattern": "straight"},
+		"move_homing": {"move_type": 2, "search": 4, "speed": 200, "bullet_pattern": "homing"},
+		"boss" : {"move_type": 2, "search": 4, "speed": 180, "bullet_pattern": "bullet_boss"}
+	},
+	"bullet_pattern": {
+		"straight" : {"move_type": 1, "speed": 250, "interval": 1000},
+		"homing" : {"move_type": 2, "speed": 250, "interval": 1000},
+		"bullet_boss" : {"move_type": 1, "speed": 300, "interval": 500}
+	}
+}

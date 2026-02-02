@@ -1,5 +1,5 @@
 {
-	"data_version": "1.0.0",
+	"data_version": "1.1.0",
 	"x": 20,
 	"y": 38,
 	"start_x": 2,
@@ -43,16 +43,8 @@
 		{"x": 7, "y": 11, "img": 1, "angle": -90, "enemy_pattern": "stop"},
 		{"x": 13, "y": 10, "img": 1, "angle": -90, "enemy_pattern": "stop"},
 		{"x": 14, "y": 16, "img": 1, "angle": -90, "enemy_pattern": "stop"},
-		{"x": 6, "y": 17, "img": 1, "angle": -90, "enemy_pattern": "stop_homing"},
-		{"x": 17, "y": 23, "img": 1, "angle": -90, "enemy_pattern": "stop_homing"},
+		{"x": 6, "y": 17, "img": 1, "invincible":{"all": true}, "angle": -90, "enemy_pattern": "stop_homing"},
+		{"x": 17, "y": 23, "img": 1, "invincible":{"all": true}, "angle": -90, "enemy_pattern": "stop_homing"},
 		{"x": 5, "y": 34, "img": 1, "angle": -90, "enemy_pattern": "stop"}
-	],
-	"enemy_pattern" : {
-		"stop" : {"move_type": 1, "search": 5, "bullet_pattern": "straight"},
-		"stop_homing" : {"move_type": 1, "search": 5, "bullet_pattern": "homing"}
-	},
-	"bullet_pattern": {
-		"straight" : {"move_type": 1, "speed": 250, "interval": 1000},
-		"homing" : {"move_type": 2, "speed": 250, "interval": 1000}
-	}
+	]
 }
