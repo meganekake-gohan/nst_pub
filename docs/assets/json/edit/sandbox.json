@@ -1,0 +1,46 @@
+{
+	"data_version": "1.1.1",
+	"start_direction": {
+		"dummy": -9999,
+		"interval": 3000,
+		"easing": "Cubic.easeInOut",
+		"goal_delay": 800
+	},
+	"goal_data": {
+		"dummy": -9999,
+		"type": 2,
+		"target_id": -9999
+	},
+	"x": 11,
+	"y": 14,
+	"start_x": 1,
+	"goal_x": 8,
+	"hurdle_list": [],
+	"switch_list": [],
+	"enemy_list": [],
+	"partition_list": [],
+	"ornament_list": {
+		"under": [
+			{
+				"x": 0,
+				"y": 3,
+				"name": "building_00.png"
+			},
+			{
+				"x": 4,
+				"y": 3,
+				"name": "building_00.png"
+			},
+			{
+				"x": 2,
+				"y": 10,
+				"name": "building_00.png"
+			},
+			{
+				"x": 6,
+				"y": 10,
+				"name": "building_00.png"
+			}
+		]
+	}
+}
