@@ -27,8 +27,8 @@
 	"goal_direction": 2000,
 	"player" : {
 		"hit_size": 40,
-		"speed": 400,
-		"rot_max": 4,
+		"speed": 520,
+		"rot_max": 6.4,
 		"graze_circle_radius": 150
 	},
 	"enemy_texture" : {
@@ -38,11 +38,11 @@
 		}
 	},
 	"homing_rot_max":{
-		"enemy": 3,
-		"bullet": 1.5
+		"enemy": 4.8,
+		"bullet": 2.4
 	},
 	"partition": {
-		"unit_speed": 310
+		"unit_speed": 400
 	},
 	"hit_effect": {
 		"interval": 500,
