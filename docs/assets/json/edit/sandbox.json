@@ -20,26 +20,133 @@
 	"enemy_list": [],
 	"partition_list": [],
 	"ornament_list": {
-		"under": [
+		"upper": [
 			{
 				"x": 0,
 				"y": 3,
 				"name": "building_00.png"
 			},
 			{
-				"x": 4,
+				"x": 3,
 				"y": 3,
-				"name": "building_00.png"
-			},
-			{
-				"x": 2,
-				"y": 10,
-				"name": "building_00.png"
+				"name": "building_01.png"
 			},
 			{
 				"x": 6,
+				"y": 6,
+				"name": "building_02.png"
+			},
+			{
+				"x": 10.7,
+				"y": -2,
+				"name": "building_00.png"
+			},
+			{
+				"x": 10.7,
+				"y": 1,
+				"name": "building_02.png"
+			},
+			{
+				"x": 10.7,
+				"y": 4,
+				"name": "building_01.png"
+			},
+			{
+				"x": 10.7,
+				"y": 7,
+				"name": "building_02.png"
+			},
+			{
+				"x": 10.7,
 				"y": 10,
 				"name": "building_00.png"
+			},
+			{
+				"x": 10.7,
+				"y": 13,
+				"name": "building_02.png"
+			},
+			{
+				"x": -3,
+				"y": -2,
+				"name": "building_00.png"
+			},
+			{
+				"x": -3,
+				"y": 1,
+				"name": "building_02.png"
+			},
+			{
+				"x": -3,
+				"y": 4,
+				"name": "building_01.png"
+			},
+			{
+				"x": -3,
+				"y": 7,
+				"name": "building_02.png"
+			},
+			{
+				"x": -3,
+				"y": 10,
+				"name": "building_00.png"
+			},
+			{
+				"x": -3,
+				"y": 13,
+				"name": "building_02.png"
+			},
+			{
+				"x": 4,
+				"y": 13,
+				"name": "building_00.png"
+			},
+			{
+				"x": 7,
+				"y": 13,
+				"name": "building_01.png"
+			}
+		],
+		"under": [
+			{
+				"x": 0,
+				"y": -3.2,
+				"name": "road_00.png"
+			},
+			{
+				"x": 4,
+				"y": -3.2,
+				"name": "road_00.png"
+			},
+			{
+				"x": 8,
+				"y": -3.2,
+				"name": "road_00.png"
+			},
+			{
+				"x": 0,
+				"y": 3.7,
+				"name": "road_00.png"
+			},
+			{
+				"x": 4,
+				"y": 3.7,
+				"name": "road_00.png"
+			},
+			{
+				"x": 1,
+				"y": -3.5,
+				"name": "building_02.png"
+			},
+			{
+				"x": 4,
+				"y": -3.5,
+				"name": "building_00.png"
+			},
+			{
+				"x": 7,
+				"y": -3.5,
+				"name": "building_01.png"
 			}
 		]
 	}
