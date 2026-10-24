@@ -33,7 +33,22 @@
 	],
 	"partition_list": [
 		{"x": 0, "y": 19, "w": 4, "target_id": 2, "move": {"dir": "right", "len": 4}},
-		{"x": 16, "y": 32, "w": 4, "target_id": 3, "move": {"dir": "left", "len": 4}}
+		{
+			"x": 16,
+			"y": 32,
+			"w": 1024,
+			"h": 256,
+			"image": "grid_160x160_8.png",
+			"is_nine_slice": true,
+			"nine_slice_edge": {
+				"left_width": 8,
+				"right_width": 8,
+				"top_height": 8,
+				"bottom_height": 8
+			},
+			"target_id": 3,
+			"move": {"dir": "left", "len": 1024}
+		}
 	],
 	"enemy_list": [
 		{"x": 2, "y": 3, "img": 1, "angle": -90, "enemy_pattern": "stop"},
