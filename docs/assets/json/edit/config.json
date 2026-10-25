@@ -1,0 +1,49 @@
+{
+	"camera_move": 15,
+	"camera_zoom_delta": 0.1,
+	"camera_zoom_init": 1,
+	"camera_zoom_min": 0.2,
+	"camera_zoom_max": 2,
+	"hurdle_rect_min_size": 256,
+	"resource_list": {
+		"ornament": [
+			"building_00.png",
+			"building_01.png",
+			"building_02.png",
+			"road_00.png",
+			"light_sample_00.png"
+		]
+	},
+	"blend_mode_list":[
+		"null",
+		"ADD",
+		"MULTIPLY",
+		"SKIP_CHECK",
+		"NORMAL",
+		"SCREEN",
+		"OVERLAY",
+		"DARKEN",
+		"LIGHTEN",
+		"COLOR_DODGE",
+		"COLOR_BURN",
+		"HARD_LIGHT",
+		"SOFT_LIGHT",
+		"DIFFERENCE",
+		"EXCLUSION",
+		"HUE",
+		"SATURATION",
+		"COLOR",
+		"LUMINOSITY",
+		"ERASE",
+		"SOURCE_IN",
+		"SOURCE_OUT",
+		"SOURCE_ATOP",
+		"DESTINATION_OVER",
+		"DESTINATION_IN",
+		"DESTINATION_OUT",
+		"DESTINATION_ATOP",
+		"LIGHTER",
+		"COPY",
+		"XOR"
+	]
+}

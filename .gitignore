@@ -4,7 +4,6 @@ node_modules/
 docs/js/lib/phaser.js
 docs/js/main.js
 docs/js/main.map_editor.js
-docs/assets/json/edit/
 
 *.js.map
 *.local.json
