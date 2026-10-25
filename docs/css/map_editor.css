@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+	--primary-color: #afa;
+	--secondary-color: #727;
+	--tertiary-color: #27f;
+	background-color: var(--primary-color);
+	background-size: 20px 20px;
+	background-image: linear-gradient(
+		-45deg,
+		transparent, transparent 48.5%,
+		var(--secondary-color) 49.5%, var(--secondary-color) 50.5%,
+		transparent 51.5%, transparent
+  ), linear-gradient(
+		45deg,
+		transparent, transparent 48.5%,
+		var(--tertiary-color) 49.5%, var(--tertiary-color) 50.5%,
+		transparent 51.5%, transparent
+  );
+}
+
+#main-wrapper {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	box-sizing: border-box;
+}
+
+#editor-wrapper {
+	position: relative;
+	width: 30vw;
+	height: calc(100% - 10px);
+	overflow-y: auto;
+	background-color: #fefefe;
+	margin: 5px 5px 5px 0;
+	box-sizing: border-box;
+}
+
+.left-view {
+	width: 70vw;
+}
+
+.editor-sub-wrapper {
+	position: relative;
+	height: 10%;
+	background-color: #fefefe;
+	margin: 5px 0 5px 5px;
+}
+
+#phaser-canvas {
+	aspect-ratio: 16 / 9;
+}
+
+.explanation {
+	padding: 5px;
+	margin: 5px;
+	background-color: #f0f0f0;
+	overflow: scroll;
+}

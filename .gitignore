@@ -3,9 +3,7 @@
 node_modules/
 docs/js/lib/phaser.js
 docs/js/main.js
-docs/css/map_editor.css
 docs/js/main.map_editor.js
-docs/map_editor.html
 docs/assets/json/edit/
 
 *.js.map
